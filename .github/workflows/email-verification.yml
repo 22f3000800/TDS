@@ -10,5 +10,6 @@ jobs:
 test:
 runs-on: ubuntu-latest
 steps:
+# This is the required step name
 - name: 22f3000800@ds.study.iitm.ac.in
 run: echo "Hello, world!"
