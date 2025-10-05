@@ -1,6 +1,6 @@
 name: Deployment Verification Check
 
-Trigger the workflow automatically on every push
+# Trigger the workflow automatically on every push
 on:
 push:
 branches:
