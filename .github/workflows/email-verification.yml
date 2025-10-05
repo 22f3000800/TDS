@@ -1,15 +1,5 @@
-name: Deployment Verification Check
-
-# Trigger the workflow automatically on every push
-on:
-push:
-branches:
-- main # or master, depending on your primary branch name
-
 jobs:
-test:
-runs-on: ubuntu-latest
-steps:
-# This is the required step name
-- name: 22f3000800@ds.study.iitm.ac.in
-run: echo "Hello, world!"
+  test:
+    steps:
+      - name: 22f3000800@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
